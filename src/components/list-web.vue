@@ -20,11 +20,11 @@ export default {
     return {
       Lst: [
         { color: "primary", name: "thichtruyentranh.com" },
-        { color: "success", name: "truyentranhtam.com" },
+        { color: "success", name: "www.a3manga.com" },
         { color: "danger", name: "comicvn.net" },
         { color: "warning", name: "mangak.info" },
         { color: "info", name: "truyentranh.net" },
-        { color: "secondary", name: "blogtruyen.com" }
+        { color: "secondary", name: "dammetruyen.com" }
       ]
     };
   }

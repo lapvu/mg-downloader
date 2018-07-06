@@ -8,7 +8,6 @@ module.exports = function (link, x) {
             } else {
                 echasync.do(result, function (next, item, index, result) {
                     getImage(item, x).then((data) => {
-                        console.log(data)
                         final.push(data);
                         next();
                     })

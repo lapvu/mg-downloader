@@ -18,7 +18,7 @@ function createWindow() {
     win.loadURL(url.format({
         pathname: path.join(__dirname, '../dist/index.html'),
         protocol: 'file:',
-        slashes: true
+        slashes: true,
     }));
     win.on('closed', () => {
         win = null
@@ -42,7 +42,6 @@ app.on('activate', () => {
 
 ipcMain.on('send-link-to-electron', (e, args) => {
     const to = core.fromWhere(args);
-    console.log(to)
     switch (to) {
         case 1:
             comicvn(args, x).then(result => {
