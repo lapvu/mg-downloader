@@ -20,3 +20,13 @@ yarn start
 #build app
 build -w
 ```
+### support
+```
+http://comicvn.net/
+http://thichtruyentranh.com
+http://truyentranh.net/
+http://mangak.info/
+http://dammetruyen.com/
+https://www.a3manga.com/
+```
+
